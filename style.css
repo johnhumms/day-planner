@@ -11,6 +11,7 @@ textarea{
   resize: none;
   color: #000000;
   padding: 10px;
+  margin-right: 5px;
 }
 
 .jumbotron {
@@ -28,6 +29,7 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  margin-right: 20px;
 }
 
 .row {
@@ -57,15 +59,89 @@ textarea{
   color: white;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+.btn {
+  border: 1px solid black;
+  border-radius: 5px;
   background-color: #06AED5;
   color: white;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  display: inline;
 }
 
-.saveBtn i:hover {
+.btn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+#nine-input {
+  margin-right: 20px;
+}
+
+#ten-input {
+  margin-right: 20px;
+}
+
+#eleven-input {
+  margin-right: 20px;
+}
+
+#twelve-input {
+  margin-right: 20px;
+}
+
+#one-input {
+  margin-right: 20px;
+}
+
+#two-input {
+  margin-right: 20px;
+}
+
+#three-input {
+  margin-right: 20px;
+}
+
+#four-input {
+  margin-right: 20px;
+}
+
+#five-input {
+  margin-right: 20px;
+}
+
+#nine-save {
+  margin-left: 20px;
+}
+
+#ten-save {
+  margin-left: 20px;
+}
+
+#eleven-save {
+  margin-left: 20px;
+}
+
+#twelve-save {
+  margin-left: 20px;
+}
+
+#one-save {
+  margin-left: 20px;
+}
+
+#two-save {
+  margin-left: 20px;
+}
+
+#three-save {
+  margin-left: 20px;
+}
+
+#four-save {
+  margin-left: 20px;
+}
+
+#five-save {
+  margin-left: 20px;
 }
