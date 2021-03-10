@@ -164,3 +164,20 @@ function renderTaskFive () {
 }
 
 renderTaskFive();
+
+function colorUpdate () {
+    var currentHour = moment().hours();
+    var timeBlock = document.querySelectorAll(".time-block");
+    for (i=0; i < timeBlock.length; i++) {
+        var blockHour = parseInt(timeBlock[i].getAttribute("id"));
+        if (currentHour > blockHour) {
+            timeBlock[i].classList.add("past");
+        } else if (currentHour === blockHour) {
+            timeBlock[i].classList.add("present");
+        } else {
+            timeBlock[i].classList.add("future");
+        }
+    }
+}
+
+colorUpdate();
